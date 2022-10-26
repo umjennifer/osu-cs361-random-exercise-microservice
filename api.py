@@ -1,3 +1,5 @@
+# python3 api.py
+
 from flask import Flask
 from flask_restful import Resource, Api
 import random
@@ -22,7 +24,6 @@ def generate_prn():
 
 class Exercises(Resource):
     def get(self):
-        # Default to 200 OK
         return exercises_data[str(generate_prn())]
 
 api.add_resource(Exercises, '/')
