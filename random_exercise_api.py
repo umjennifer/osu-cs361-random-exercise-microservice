@@ -8,8 +8,6 @@ import json
 with open('exercises.json') as file:
    exercises_data = json.load(file)
 
-print("exercises_data=",len(exercises_data))
-
 app = Flask(__name__)
 api = Api(app)
 
