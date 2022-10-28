@@ -118,9 +118,11 @@ This will return output similar to
 deadlift
 ```
 
+# Additional API functionalities
+
 <details>
 
-<summary>Additional API functionalities</summary>
+<summary>Instructions</summary>
 
 ## Get all exercises
 ### Method 1: Using the browser
