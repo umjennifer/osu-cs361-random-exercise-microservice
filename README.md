@@ -6,8 +6,8 @@ The API returns a JSON containing an exercise randomly chosen from [exercises.js
 ```json
 {"name": "deadlift"}
 ```
-
-TODO: UML diagram
+**UML sequence diagram showing how requesting and receiving data work**
+![UML sequence diagram showing how requesting and receiving data work](uml_sequence_diagram_read_receive.png)
 
 # Instructions 
 
