@@ -1,7 +1,7 @@
 # Random Exercise API
 
 # About
-The API returns a JSON containing an exercise randomly chosen from [exercises.json](exercises.json). For example:
+A REST API that returns a JSON containing an exercise randomly chosen from [exercises.json](exercises.json). For example:
 
 ```json
 {"name": "deadlift"}
